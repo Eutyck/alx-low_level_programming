@@ -2,10 +2,11 @@
 /**
  * main
  * print a text
+ * return o
  */
 int main(void)
 {	
-	char text[] = "Programming is like building a multilingual puzzle\n";
+	char text[] = " "Programming is like building a multilingual puzzle\n";
 
 	puts(text);
 
