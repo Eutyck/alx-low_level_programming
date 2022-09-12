@@ -2,7 +2,7 @@
 /**
  * main-start point
  * Description:pringrame print 1 to 9
- * Return : 0
+ * Return :return  0 if correct
  */
 int main (void)
 {
