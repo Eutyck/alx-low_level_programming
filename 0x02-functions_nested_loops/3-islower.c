@@ -10,11 +10,11 @@ int main ()
 	int n ='q';
 	if ( islower (n))
 	{
-		printf ("%c is in lowercase\n",n);
+		printf ("%c is a lowercase\n",n);
 	}
 	else 
 	{ 
-		printf ("%c is not in lowercase\n",n);
+		printf ("%cin not in lowercase\n",n);
 	}
 	return (0);
 }
