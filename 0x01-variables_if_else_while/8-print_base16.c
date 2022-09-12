@@ -6,10 +6,10 @@
  */
 int main (void)
 {
-	char d;
+	char d,a;
         for (d = '0'; d <= '9'; d++)
         {
-                putchar (f);
+                putchar (d);
         }
 	for (d = 'a'; a <= 'f'; d++)
 	{
