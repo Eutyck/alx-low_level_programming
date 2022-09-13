@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
+ * main -start point 
  * Description: display -putchar
- * return 0
+ * Return: return 0
  */
-int main (void)
+int main(void)
 {
-	printf ("_putchar\n");
-	return (0);
+	printf("_putchar\n");
+	return(0);
 }
