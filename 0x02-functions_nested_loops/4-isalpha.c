@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *main-start point
 *Description: show if number is an alphabet
