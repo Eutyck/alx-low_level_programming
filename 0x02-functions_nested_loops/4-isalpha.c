@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 /**
 *main-start point
 *Description: show if number is an alphabet
@@ -8,7 +9,7 @@
 int main ()
 {
 int var = 'a';
-if ( isalpha (var))
+if (isalpha (var))
 {
 printf ("%c is an alphabet\n",var);
 }
