@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * Description: function prints alphabetic characters
  * all charcters are in small letters.

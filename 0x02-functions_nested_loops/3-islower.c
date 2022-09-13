@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 /**
  * main-start point
  * Description: function check lower charater
