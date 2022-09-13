@@ -8,7 +8,7 @@
 int main ()
 {
 int var = 'a';
-if (isalpha (var))
+if ( isalpha (var))
 {
 printf ("%c is an alphabet\n",var);
 }
