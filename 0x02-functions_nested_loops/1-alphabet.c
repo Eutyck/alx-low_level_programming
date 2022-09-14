@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * Description: function prints alphabetic characters
  * all charcters are in small letters.
@@ -12,8 +11,7 @@ int main(void)
 {
 	putchar(c);
 }
-	putchar('\n');
-	return(0);
+	_putchar('\n');
 
 	}
 
