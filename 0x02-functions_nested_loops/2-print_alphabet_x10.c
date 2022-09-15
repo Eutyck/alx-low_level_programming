@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main-start point
@@ -6,7 +5,7 @@
  *
  * Return: return 0
  */
-int main (void)
+void print_alphabet_x10 (void)
 {
 	int i;
 	for (i = 1; i <= 10; ++i)
@@ -14,11 +13,10 @@ int main (void)
 	char c;
 	for (c ='a'; c <= 'z'; ++c)
 	{
-		putchar (c);
+		_putchar (c);
 	}
 }
-        putchar ('\n');
-        return (0);
+        _putchar ('\n');
 
 }
 
