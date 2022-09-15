@@ -1,18 +1,15 @@
 #include "main.h"
 /**
-*main-start point
-*Description: show if number is an alphabet
-*Return: return 1 if alphabetic else 0
-*/
+ * _isalpha - function to check if c is a letter, lowercase or uppercase
+ * @c: is the int that will use for the argument of the function
+ * Return: 0
+ */
 int _isalpha(int c)
 {
-int c = 'a';
-if (isalpha (c))
-{
-_putchar (c + '1');
-}
-else
-{
-_putchar (c + '0');
-}
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+	return (1);
+	}
+	else
+	return (0);
 }
