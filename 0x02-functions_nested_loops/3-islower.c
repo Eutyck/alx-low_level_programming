@@ -4,7 +4,7 @@
  * Description: function check lower charater
  * Return: retun 1 if in lower or 0 otherwise
  */
-int main ()
+int _islower(int c)
 {
 	int n ='q';
 	if ( islower (n))
@@ -15,6 +15,6 @@ int main ()
 	{ 
 		printf ("%cin not in lowercase\n",n);
 	}
-	return (0);
+	
 }
 
