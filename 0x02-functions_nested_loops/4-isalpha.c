@@ -1,21 +1,19 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
 /**
 *main-start point
 *Description: show if number is an alphabet
 *Return: return 1 if alphabetic else 0
 */
-int main ()
+int _isalpha(int c)
 {
 int var = 'a';
 if (isalpha (var))
 {
-printf ("%c is an alphabet\n",var);
+_putchar (var + '1');
 }
 else
 {
-printf ("%c is not an alphabet\n",var);
+_putchar (var + '0');
 }
 return (0);
 }
