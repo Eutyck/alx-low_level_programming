@@ -6,14 +6,13 @@
 */
 int _isalpha(int c)
 {
-int var = 'a';
-if (isalpha (var))
+int c = 'a';
+if (isalpha (c))
 {
-_putchar (var + '1');
+_putchar (c + '1');
 }
 else
 {
-_putchar (var + '0');
+_putchar (c + '0');
 }
-return (0);
 }
