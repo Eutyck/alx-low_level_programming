@@ -10,5 +10,4 @@ int main(void)
 	*p = 98;
 	*p = n;
 	_putchar (n);
-	return (0);
 }
