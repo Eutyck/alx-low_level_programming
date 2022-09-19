@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swappig two integers 
+ * swap_int - swaps two integers' values 
  * @a: paramiter
  * @b: paramiter
  *
