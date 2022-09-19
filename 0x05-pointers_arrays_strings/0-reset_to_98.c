@@ -7,7 +7,8 @@
 int main(void)
 {
 	int n;
-	*p = 98;
-	*p = n;
-	_putchar (n);
+	*n = 98;
+	*n = n;
+	putchar (n);
+	return (0);
 }
