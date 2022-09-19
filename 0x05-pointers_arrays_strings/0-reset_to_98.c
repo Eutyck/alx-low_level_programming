@@ -4,7 +4,7 @@
  *
  * Return: always 0
  */
-int main(void)
+int main(int *n)
 {
 	*n = 98;
 	return (0);
