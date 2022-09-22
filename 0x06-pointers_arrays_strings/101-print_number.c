@@ -5,15 +5,15 @@
  * Return: Always 0.
  */
 
-void print_number(int n)
+void print_number(int n) 
 {
 	if (n < 0)
 	{
-		putchar('-');
-		n = -n;
-	}
-	if (n / 10 != 0)
-		print_number(n / 10);
-	putchar((n % 10) + '0');
+		 putchar('-');
+        pr_uint(-(unsigned int)n);
+    } else
+        pr_uint(n);
+    putchar('\n');
+
 	return (0);
 }
