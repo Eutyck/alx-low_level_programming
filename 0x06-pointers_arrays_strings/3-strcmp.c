@@ -14,14 +14,14 @@ int _strcmp(char *s1, char *s2)
 {
 	if (strcmp (s1, s2) < 0)
 	{
-		printf ("s1 is less than s2");
+		/*printf ("s1 is less than s2");*/
 	}
 	else if (strcmp (s1, s2) == 0)
 	{
-		printf ("s1 is equalto s2");
+	/*	printf ("s1 is equalto s2");*/
 	}
 	else
-		printf ("s1 is greater than s2");
+		/*printf ("s1 is greater than s2");*/
 
 	return (0);
 }
