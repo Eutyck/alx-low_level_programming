@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.>
+#include <string.h>
 /**
  * main.h prototype for the function
  *prototypes are int & char
