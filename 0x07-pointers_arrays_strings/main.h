@@ -1,8 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-#include <stdio.h>
-#include <string.h>
 /**
  * main.h prototype for the function
  *prototypes are int & char
