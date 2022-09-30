@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * best - return the factorial of a given number
- * @argc: int to be used
- *@argv[]: char display arguments
+ * main - this program prints its name
  *
- * Return: 0 
+ * @argc: number of arguments
+ * @argv: string of arguments
+ *
+ * Return: 0
  */
-int best(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 	
