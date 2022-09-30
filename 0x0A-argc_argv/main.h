@@ -1,11 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * int prototype
+ * retun: 0
+ */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int _putchar(char c);
 int main(int argc, char *argv[]);
 int main(int argc, char *argv[]);
 
-#endif
+#endif /*main.h end*/
