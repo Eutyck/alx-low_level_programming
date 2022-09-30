@@ -26,4 +26,3 @@ int main(int argc, char *argv[])
         printf("sum is %d\n", sum);
         return (0);
 }
-~ 
