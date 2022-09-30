@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - this program prints its name
+ * main - this program displays no of argumens passed
  *
  * @argc: number of arguments
- * @argv: string of arguments
  *
  * Return: 0
  */
