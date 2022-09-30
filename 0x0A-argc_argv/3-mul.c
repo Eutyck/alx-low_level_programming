@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - this program prints its name
+ * main - this programe get product of integes
  *
  * @argc: number of arguments
  * @argv: string of arguments
@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
         int i = 0;
-	int sum = 0;
+	int product = 0;
 	int j =0;
 
 	if (argc != 3)
@@ -21,8 +21,8 @@ int main(int argc, char *argv[])
 	}
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
-	sum = i * j;
+	product = i * j;
 	
-	printf("sum is %d\n", sum);
+	printf("product is %d\n", product);
         return (0);
 }
