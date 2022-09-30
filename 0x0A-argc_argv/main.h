@@ -5,8 +5,6 @@
  * retun: 0
  */
 
-#include <stdio.h>
-
 int _putchar(char c);
-int atoi(char j[])
+int main(int argc, char *argv[]);
 #endif /*main.h end*/
