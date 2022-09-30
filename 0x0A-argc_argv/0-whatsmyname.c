@@ -2,7 +2,7 @@
 /**
  * main - print program name
  * @argc: int agrument show counts
- * @argv: char arg vector shows the name
+ * @argv: char shows the name
  *
  * Return 0
  */
