@@ -6,9 +6,9 @@
  *
  * Return: return 0 if success and 1otherwise
  */
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
-	(void)*argv[0];
-	printf("argc = %d\n", argc);
+	(void) * argv[0];
+	printf ("argc = %d\n", argc);
 	return (0);
 }
