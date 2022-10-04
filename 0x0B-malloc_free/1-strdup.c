@@ -2,7 +2,7 @@
 /**
  * _strdup - duplicates content in char to a pointer *str
  * @str: pointer where chsrscter content will be stored
- *@st: poiter where string will be copied
+ *
  * Return: pointer to the duplicated string ,OR NULL if fails
  */
 char *_strdup(char *str)
@@ -20,7 +20,6 @@ char *_strdup(char *str)
 
 	if (st == NULL)
 		return (NULL);
-	
 	for (index = 0; str[index]; index++)
 	{
 		st[index] = str[index];
