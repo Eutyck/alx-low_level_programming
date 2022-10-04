@@ -3,7 +3,6 @@
  * create_array - create array of characters
  * @c: character to store the array
  * @size: interger for the count
- * @index: unsigend int for count
  * @*arry: arry to be used
  *
  * Return: return poiter to array if succes or  NULL if it fails
@@ -19,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		array=(void*)malloc(size * sizeof (char));
+		array=(void *)malloc(size * sizeof(char));
 
 		for (index = 0; index < size; index++)
 		{
