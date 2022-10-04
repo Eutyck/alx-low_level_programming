@@ -13,18 +13,14 @@ char *create_array(unsigned int size, char c)
 	unsigned int index;
 
 	if (size == 0)
-	{
-		 return ("NULL");
-	}
-	else
-	{
-		array=(void *)malloc(size * sizeof(char));
+		 return (NULL);
+	array=(void *)malloc(size * sizeof(char));
 
-		for (index = 0; index < size; index++)
-		{
+	if (arry == num)
+		return (NULL);
+	
+	for (index = 0; index < size; index++)
 			array[index] = c;
-		}
-		free(array);
-	}
-	return (0);
+	
+	return (array);
 }
