@@ -3,8 +3,8 @@
 /**
  * str_concat - concatinating s2 to s1
  * @s1: first string
- * @s2: second string 
-
+ * @s2: second string
+ *
  * Return: function  or NULL on failure
  */
 char *str_concat(char *s1, char *s2)
