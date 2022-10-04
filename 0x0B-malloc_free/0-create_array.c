@@ -14,9 +14,9 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 		 return (NULL);
-	array=(void *)malloc(size * sizeof(char));
+	array = malloc(size * sizeof(char));
 
-	if (arry == num)
+	if (array == NULL)
 		return (NULL);
 	
 	for (index = 0; index < size; index++)
