@@ -8,12 +8,12 @@
 void *malloc_checked(unsigned int b)
 {
 	int* mem;
-	 const char *s = "98";
+	int s = 98;
 	
 	mem = (int *)malloc(b * sizeof (int));
 	if (mem ==NULL)
 	{
-		perror (s);
+		exit(s);
 	}
 	return (0);
 }
