@@ -8,14 +8,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	unsigned int b = 98;
-	int *mem, size;
-
-	if (mem = (int *)malloc(size * sizeof (int)))
-		return (0);
-	else
+	int* mem;
+	
+	mem = (int *)malloc(b * sizeof (int));
+	if (mem ==NULL)
 	{
-		perror ("b");
-		exit();
+		perror ("98");
 	}
+	return (0);
 }
